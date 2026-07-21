@@ -21,6 +21,11 @@ The framework is intentionally conservative in scope and designed to be
 explicitly testable and falsifiable.
 
 ---
+## Repository Status
+
+- Active Research
+- Current Phase: κ Derivation Audit
+- Repository Status: Under Active Scientific Review
 
 ## Core Structure
 
