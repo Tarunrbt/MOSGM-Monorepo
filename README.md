@@ -33,7 +33,9 @@ MOSGM has two distinct layers, and it is important not to conflate them:
 
 **1. MOSGM-I — Rotation curve formula**
 g_obs = g_bar [1 + κ(μ(x) − 1)]
-
+```text
+g_obs = g_bar [1 + κ(μ(x) − 1)]
+```
 This layer reproduces SPARC-type rotation curves. **It is currently
 numerically close to MOND on rotation curves alone** and does not, by itself,
 constitute evidence for a distinct mechanism.
