@@ -109,7 +109,13 @@ MOSGM-Theory/
 - **Pan et al. 2012** — void catalog cross-match
 
 ---
+## Scientific Principles
 
+- Reproducibility before claims
+- Evidence over narrative
+- Pre-registered analysis sequence
+- Transparent revision history
+- Archived claims remain accessible but are not treated as current evidence
 ## Scientific Discipline
 
 - No numerical result is reported without a traceable, reproducible local
