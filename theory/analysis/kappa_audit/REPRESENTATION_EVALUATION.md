@@ -19,6 +19,20 @@ The relevant column below evaluates only whether a representation is
 *structurally capable* of admitting GR as a limiting case — it does not assert 
 that MOSGM is or is not a General Relativity extension.
 
+### Methodology Note — GR Limiting Case
+
+This criterion evaluates only whether a candidate representation is structurally capable of admitting General Relativity as a limiting or special case.
+
+It does not determine whether MOSGM is a General Relativity extension, modification, or independent framework. That question remains explicitly OPEN under PA-06.
+
+Assessments shall therefore use only the following provisional categories:
+
+- Potentially Compatible
+- Potentially Incompatible
+- Undetermined
+
+Each assessment must include a brief structural justification.
+
 ---
 
 ## Table
