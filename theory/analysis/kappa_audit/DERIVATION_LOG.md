@@ -17,7 +17,47 @@
 ---
 
 ## Entry 001
-<!-- copy template above -->
+### Step 0 — Starting Point
+
+**Referenced Assumptions:**
+- PA-01
+- PA-02
+- MA-01
+
+**Statement:**
+An environmental matter density field, Σ(r), is taken as the starting point
+over the galactic domain. This working hypothesis is consistent with PA-01 and
+is carried forward for audit without fixing its mathematical representation.
+
+**Status:** OPEN
+
+**Outstanding Questions:**
+- What mathematical object represents the effective spacetime-gradient field?
+- Is κ dimensional or dimensionless?
+- Is the relation local or non-local?
+- What role does LΣ play in this relation?
+- What physical interpretation should be assigned to κ?
+
+**Candidate representations remain under evaluation. No representation is selected at this stage.**
+
+### Decision Gate
+
+No mathematical representation of the effective spacetime-gradient field is accepted at this stage.
+
+**Exit Criterion for Step 0:**
+- The starting assumptions are documented.
+- All open questions are explicitly listed.
+- No mathematical representation has been selected.
+- Entry criteria for Step 1 have been established.
+
+**Entry Criterion for Step 1:**
+- PA-01 through PA-06
+- MA-01 and MA-02
+- Internal mathematical consistency
+- Observational testability
+
+**Next Objective:**
+Determine the mathematical representation of the effective spacetime-gradient field.
 
 <!-- Additional entries appended in sequence -->
 
