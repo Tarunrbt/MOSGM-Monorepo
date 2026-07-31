@@ -1,24 +1,55 @@
 # Canonical Assumptions — κ Audit
 
 ## Physical Assumptions
-<!-- Assumptions about the physical system/phenomenology -->
-- PA-01: MOSGM assumes that matter distribution contributes to an effective spacetime gradient at galactic scales.
+
+- PA-01: Matter distribution is assumed to generate an effective spacetime-gradient field at galactic scales. The precise mathematical definition of this field is deferred to the mathematical formulation.
 
 - PA-02: The model is intended for galaxy-scale phenomenology and does not attempt to modify established Solar System or laboratory-scale gravity.
 
-- PA-03: Environmental matter distribution may influence observed galactic dynamics through a spacetime-gradient mechanism.
+- PA-03: If such a spacetime-gradient field exists, it is assumed to produce observable signatures in galactic dynamics that can be tested against astronomical observations.
 
-- PA-04: The framework is designed to produce testable predictions that can be compared against astronomical observations.
+- PA-04: The framework is committed to producing falsifiable, quantitatively testable predictions.
 
-- PA-05: No assumption is made that dark matter particles must exist; the framework remains observationally testable regardless of future evidence.
+- PA-05: No assumption is made that dark matter particles must exist. The framework remains observationally testable regardless of future evidence.
+
+- PA-06 (Open Question): The relationship between MOSGM and General Relativity is intentionally left unresolved during the κ Audit. Whether MOSGM is an effective extension of GR, a phenomenological modification, or an independent framework will be determined only after mathematical derivation and observational validation.
+
+---
+
 ## Mathematical Assumptions
-<!-- Assumptions about formalism, expansion validity, function behaviour, etc. -->
+
+- MA-01: All mathematical quantities shall have explicit definitions, dimensions (or be dimensionless where applicable), and consistent notation throughout the derivation.
+
+- MA-02: Every derived equation shall state its assumptions, applicable regime, and mathematical domain of validity.
+
+---
 
 ## Excluded Assumptions
-<!-- Things explicitly NOT assumed -->
+
+The following are **not** assumed during the κ Audit:
+
+- The existence or non-existence of dark matter particles.
+- That MOSGM is already proven correct.
+- That MOSGM replaces General Relativity.
+- Any parameter values not derived or explicitly justified.
+
+---
 
 ## Notation / Definitions
-<!-- Symbols used across this audit's files -->
+
+| Symbol | Definition |
+|--------|------------|
+| κ | Primary MOSGM parameter under audit. |
+| Σ | Environmental matter density field. |
+| ∇Σ | Spatial gradient of the environmental matter density field. |
+| LΣ | Characteristic smoothing / interaction length scale. |
+| β | Dimensionless phenomenological coupling parameter. |
+| r | Position vector of the evaluation point. |
+| r′ | Source position vector used in spatial integration. |
+
+---
 
 ## Revision History
-<!-- Changes to this file only -->
+
+- 2026-07-31: Initial κ Audit assumptions document created.
+- 2026-07-31: Added Physical Assumptions, Mathematical Assumptions, excluded assumptions, and canonical notation.
