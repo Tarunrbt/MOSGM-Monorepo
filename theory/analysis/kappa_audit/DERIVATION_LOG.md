@@ -111,10 +111,36 @@ in terms of G(r).
 - What boundary conditions or limiting behavior (e.g., as r → 0 or r → ∞)
   must G(r) satisfy?
 
+## Methodology Note: Local vs. Non-local Formulation
+
+This sub-step evaluates candidate mathematical forms for G(r) — local or
+non-local — without presupposing either. It does not select a specific
+functional form of G(r); it establishes which structural class is best
+justified before a specific mathematical form is written.
+
+Candidates to be considered:
+- Local form
+- Non-local form
+- Additional candidates only if required
+
+Evaluation Criteria:
+- Consistency with PA-01 through PA-06
+- Consistency with MA-01 and MA-02
+- Mathematical tractability
+- Observational implications (PA-03, PA-04)
+- Additional Assumptions Introduced
+
+Assessments shall use the canonical provisional categories:
+- Potentially Compatible
+- Potentially Incompatible
+- Undetermined
+
+No candidate form is selected at this stage. Selection, if warranted,
+will be recorded separately as DEC-004.
+
 **Next Objective:**
-Establish the explicit mathematical definition of G(r) — local vs. non-local
-form, dimensional specification, and domain of validity — before proceeding
-to define κ in terms of G(r), LΣ, and β.
+Populate the Local vs. Non-local comparison table using the criteria above,
+then proceed to DEC-004 only if the comparison justifies a selection.
 
 <!-- Additional entries appended in sequence -->
 
