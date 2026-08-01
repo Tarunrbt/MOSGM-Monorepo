@@ -59,10 +59,68 @@ No mathematical representation of the effective spacetime-gradient field is acce
 **Next Objective:**
 Determine the mathematical representation of the effective spacetime-gradient field.
 
+**Resolution (2026-08-01):**
+Step 0's Exit Criterion is now satisfied. A representation was selected via
+the evaluation and decision process recorded in REPRESENTATION_EVALUATION.md
+and DECISIONS.md (DEC-001, DEC-002, DEC-003): the effective spacetime-gradient
+field is represented as a vector field, G(r). This selection was reached
+using Observational Testability (PA-03, PA-04) as the primary weighting
+criterion, with the GR Limiting Case criterion explicitly excluded from
+discrimination per PA-06 (see DEC-002). This selection remains provisional
+and subject to revision if later steps reveal internal mathematical
+inconsistency or conflict with any canonical assumption.
+
+---
+
+## Entry 002
+### Step 1 — Vector Field Formalization
+
+- **Date:** 2026-08-01
+- **Contributor:** (unspecified)
+- **Step:** Step 1 — Formal definition of G(r)
+- **Input:** Selection of vector field representation (DEC-003); PA-01,
+  PA-02, MA-01, MA-02
+- **Result:** OPEN — formal definition not yet established
+- **Evidence:**
+  - Equation reference: none yet
+  - Notebook: none yet
+  - Calculation: none yet
+  - Review comment: none yet
+- **Verification:** Not yet performed
+- **Status:** OPEN
+
+**Referenced Assumptions:**
+- PA-01, PA-02 (physical basis for the field)
+- MA-01, MA-02 (definitional and dimensional rigor requirements)
+
+**Statement:**
+Following the selection of a vector field representation, G(r), in DEC-003,
+this step formalizes G(r) in accordance with MA-01 and MA-02: its explicit
+definition, dimensions (or dimensionless status), domain of validity, and
+its relationship to Σ(r) and LΣ must be established before κ can be defined
+in terms of G(r).
+
+**Outstanding Questions:**
+- Is G(r) defined locally (e.g., G(r) ∝ ∇Σ(r)) or non-locally (e.g., via a
+  kernel integral over r′, with LΣ as a smoothing/interaction scale)? This
+  question was intentionally left open during representation evaluation
+  (see REPRESENTATION_EVALUATION.md, "Supports Non-local Formulation" column)
+  and must now be resolved with an explicit mathematical form.
+- What are the physical dimensions of G(r)?
+- What is the precise mathematical relationship between G(r) and κ?
+- What boundary conditions or limiting behavior (e.g., as r → 0 or r → ∞)
+  must G(r) satisfy?
+
+**Next Objective:**
+Establish the explicit mathematical definition of G(r) — local vs. non-local
+form, dimensional specification, and domain of validity — before proceeding
+to define κ in terms of G(r), LΣ, and β.
+
 <!-- Additional entries appended in sequence -->
 
 ## Resolution Summary
 <!-- Filled only once audit concludes -->
+
 ## External Review
 
 **GitHub Discussion:**
