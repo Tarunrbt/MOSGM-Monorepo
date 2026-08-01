@@ -19,19 +19,12 @@ The relevant column below evaluates only whether a representation is
 *structurally capable* of admitting GR as a limiting case — it does not assert 
 that MOSGM is or is not a General Relativity extension.
 
-### Methodology Note — GR Limiting Case
-
-This criterion evaluates only whether a candidate representation is structurally capable of admitting General Relativity as a limiting or special case.
-
-It does not determine whether MOSGM is a General Relativity extension, modification, or independent framework. That question remains explicitly OPEN under PA-06.
-
-Assessments shall therefore use only the following provisional categories:
-
-- Potentially Compatible
-- Potentially Incompatible
-- Undetermined
-
-Each assessment must include a brief structural justification.
+| Candidate | Supports Directionality | Justification | Supports Non-local Formulation | Can Admit GR as a Limiting Case? | Observational Testability | Status |
+|---|---|---|---|---|---|---|
+| Scalar field | Limited | Directionality is not intrinsic to a scalar field but may arise through its spatial derivative. | Moderate | Undetermined | Pending | Under Review |
+| Vector field | Strong | Directionality is intrinsic to a vector field. | Strong | Undetermined | Pending | Under Review |
+| Tensor field | Strong (General) | Supports anisotropic and direction-dependent behavior beyond vectors. | Strong (Added Complexity) | Potentially Compatible | Pending | Under Review |
+| Potential gradient | Strong (Constrained) | Directionality is present through the gradient, but restricted to conservative (curl-free) fields. | Strong (Constrained) | Undetermined | Pending | Under Review |
 
 ## Methodology Note: "Can Admit GR as a Limiting Case?" Criterion
 
@@ -48,15 +41,6 @@ Sub-questions considered:
 - Does its mathematical structure permit such a possibility without resolving PA-06?
 
 ---
-
-## Table
-
-| Candidate | Supports Directionality | Justification | Supports Non-local Formulation | Can Admit GR as a Limiting Case? | Observational Testability | Status |
-|---|---|---|---|---|---|---|
-| Scalar field | Limited | Directionality is not intrinsic to a scalar field but may arise through its spatial derivative. | Moderate | Can accommodate non-locality through its defining equation (e.g., a kernel integral), but non-locality is not intrinsic to the scalar object itself. | Pending | Pending | Under Review |
-| Vector field | Strong | Directionality is intrinsic to a vector field. | Strong | Naturally accommodates local or non-local formulations. A kernel-based definition is mathematically straightforward, though the role of LΣ remains under audit. | Pending | Pending | Under Review |
-| Tensor field | Strong (General) | Supports anisotropic and direction-dependent behavior beyond vectors. | Strong (Added Complexity) | Supports non-local formulations, but introduces additional mathematical complexity because of its higher-rank structure. | Pending | Pending | Under Review |
-| Potential gradient | Strong (Constrained) | Directionality is present through the gradient, but restricted to conservative (curl-free) fields. | Strong (Constrained) | Can represent non-local behavior if the underlying potential is defined non-locally. The resulting field is constrained to be conservative (curl-free) under the usual mathematical assumptions. | Pending | Pending | Under Review |
 
 - 2026-07-31: Second column ("Supports Non-local Formulation") populated for 
   all four candidates; language kept non-committal regarding the role of LΣ, 
