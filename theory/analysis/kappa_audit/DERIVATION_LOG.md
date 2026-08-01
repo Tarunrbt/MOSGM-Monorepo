@@ -279,6 +279,69 @@ outcome). Only after Step 1B may the dimension of C and G(r) be fixed.
 
 <!-- Additional entries appended in sequence -->
 
+
+
+---
+
+## Entry 004
+### Step 1B — Methodology: Physical Interpretation of G(r)
+
+- **Date:** 2026-08-01
+- **Contributor:** (unspecified)
+- **Step:** Step 1B — Methodology for selecting physical interpretation
+- **Input:** Entry 003 (Step 1A scaffold); PA-01 through PA-06, MA-01, MA-02
+- **Result:** Methodology established; no interpretation selected
+- **Status:** OPEN
+
+**Objective:**
+Evaluate candidate physical interpretations of the already-selected local
+vector field G(r) = C∇Σ(r). This step selects only the physical
+interpretation. It does not derive field equations or determine the
+numerical value or dimensions of C.
+
+**Candidate Interpretations:**
+1. Effective acceleration field
+2. Gradient of an effective scalar potential
+3. Geometric spacetime-gradient quantity
+4. Other mathematically equivalent interpretation (introduced only if
+   required by derivation)
+
+**Evaluation Criteria:**
+- Consistency with PA-01 through PA-06
+- Consistency with MA-01 and MA-02
+- Dimensional consistency
+- Mathematical consistency
+- Observational implications (PA-03 / PA-04)
+- Additional assumptions introduced
+
+**Assessment Categories:**
+- Potentially Compatible
+- Potentially Incompatible
+- Undetermined
+
+**Methodological Constraints:**
+- No interpretation is preferred because it appears to explain rotation
+  curves more directly.
+- No interpretation is rejected solely because it is mathematically
+  unfamiliar.
+- Physical dimensions shall be derived from the selected interpretation
+  rather than assumed beforehand.
+- Any new physical postulate beyond PA-01 through PA-06 must be
+  explicitly identified as an additional assumption.
+
+**Exit Criterion:**
+A complete comparison table exists for every candidate interpretation.
+
+**Decision Gate:**
+If one interpretation is sufficiently supported under the established
+criteria, record DEC-005 (Proposed). Otherwise, leave Step 1B open and
+document why no unique interpretation can yet be selected.
+
+**Next Objective:**
+Populate the Physical Interpretation Comparison Table across all four
+candidates and all six criteria.
+
+
 ## Resolution Summary
 <!-- Filled only once audit concludes -->
 
