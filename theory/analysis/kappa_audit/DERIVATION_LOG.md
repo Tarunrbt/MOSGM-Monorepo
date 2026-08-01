@@ -342,6 +342,62 @@ Populate the Physical Interpretation Comparison Table across all four
 candidates and all six criteria.
 
 
+## Physical Interpretation Comparison Table (Step 1B)
+
+| Criterion | 1. Acceleration | 2. Potential Gradient | 3. Geometric | 4. Other |
+|---|---|---|---|---|
+| PA-01\u2013PA-06 | Undetermined | Undetermined | Undetermined | Undetermined |
+| MA-01/MA-02 | Potentially Compatible | Potentially Compatible | Undetermined | Undetermined |
+| Dimensional Consistency | Potentially Compatible | Potentially Compatible | Undetermined | Undetermined |
+| Mathematical Consistency | Potentially Compatible | Potentially Incompatible | Undetermined | Undetermined |
+| Observational Implications | Undetermined | Undetermined | Undetermined | Undetermined |
+| Additional Assumptions Introduced | Potentially Incompatible | Potentially Incompatible | Undetermined | Undetermined |
+
+### Justifications
+
+- **Candidate 1 (Effective acceleration field):** PA-01's "spacetime-gradient
+  field" wording does not uniquely mandate an acceleration interpretation
+  (Undetermined on PA-01\u2013PA-06). Dimensionally and mathematically
+  tractable if [G] = [L T\u207b\u00b2] is adopted. However, assigning this
+  interpretation introduces a new physical postulate not mandated by
+  PA-01\u2013PA-06 (Potentially Incompatible on Additional Assumptions).
+  Observational testability is plausible but not treated as a deciding
+  factor per the methodological constraints of Entry 004.
+- **Candidate 2 (Gradient of an effective scalar potential):** Similarly
+  Undetermined on PA-01\u2013PA-06. This interpretation implies G is
+  curl-free by construction, reintroducing a structural constraint
+  previously deprioritized during the tie-break in DEC-003 (Potentially
+  Incompatible on Mathematical Consistency). It also requires defining a
+  new scalar potential \u03a6_eff, an additional undefined quantity
+  (Potentially Incompatible on Additional Assumptions).
+- **Candidate 3 (Geometric spacetime-gradient quantity):** Undetermined
+  across all criteria. This is lexically the closest interpretation to
+  PA-01's literal wording, but its dimensional and mathematical structure
+  cannot be specified without further formulation. A geometric
+  interpretation may eventually require additional spacetime structure;
+  whether that conflicts with PA-06 cannot be determined until the
+  formulation is made explicit.
+- **Candidate 4 (Other):** No specific candidate has been proposed;
+  Undetermined by default across all criteria.
+
+## Preliminary Conclusion (Step 1B)
+
+No candidate physical interpretation is currently supported strongly
+enough to justify selection. Each concrete interpretation (Candidates 1
+and 2) introduces additional physical commitments that are not yet
+derived from PA-01 through PA-06. Candidate 3 remains genuinely
+undetermined pending further formulation. Step 1B therefore remains OPEN
+pending further mathematical development, consistent with the second
+branch of this entry's Decision Gate. No DEC-005 is recorded at this
+stage.
+
+**Next Objective:**
+Before revisiting physical interpretation, determine whether the
+mathematical relationship between C and \u03ba can be derived without first
+selecting a physical interpretation for G(r). This question will be
+addressed in Entry 005.
+
+
 ## Resolution Summary
 <!-- Filled only once audit concludes -->
 
