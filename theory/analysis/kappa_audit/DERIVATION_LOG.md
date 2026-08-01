@@ -204,6 +204,79 @@ Record a decision (DEC-004) on the local vs. non-local question based on
 this comparison, then proceed to the explicit mathematical definition of
 G(r) consistent with that decision.
 
+---
+
+## Entry 003
+### Step 1A — Local Mathematical Definition of G(r)
+
+- **Date:** 2026-08-01
+- **Contributor:** (unspecified)
+- **Step:** Step 1A — Explicit local definition, dimensional derivation
+- **Input:** DEC-004 (Proposed); PA-01, PA-02, MA-01, MA-02
+- **Result:** OPEN
+- **Status:** OPEN
+
+**Referenced Assumptions:**
+- PA-01 (physical basis, mathematical representation deferred)
+- PA-02 (galactic-scale domain)
+- MA-01, MA-02 (explicit definitions, dimensional consistency, stated
+  domain of validity)
+
+**Working Candidate:**
+
+G(r) = C ∇Σ(r)
+
+where C is an undetermined proportionality coefficient whose
+dimensionality and physical interpretation remain to be derived. This
+is a mathematical scaffold only; no physical meaning is assigned to C
+or to G(r) at this stage.
+
+**What This Step Establishes:**
+- G(r) is a local vector field, defined pointwise from Σ(r) and its
+  spatial derivative alone. This candidate is consistent with the
+  currently proposed local formulation recorded in DEC-004.
+- Domain: the galactic-scale spatial region over which Σ(r) is
+  defined (per PA-02). Codomain: ℝ³ under the current Euclidean
+  galactic-domain approximation. No curved-space geometric structure
+  is assumed at this stage, consistent with PA-06 remaining
+  unresolved.
+- Dimensional relation (algebraic only):
+  [G] = [C] · [M L⁻⁴]
+  (since [Σ] = [M L⁻³] and gradient introduces [L⁻¹]).
+  This relation is fixed by the candidate form alone; it does not
+  determine [C] or [G] individually.
+
+**What This Step Does NOT Establish:**
+- The physical interpretation of G(r) (e.g., whether it behaves as an
+  acceleration field, a potential gradient, or another quantity) is
+  NOT determined here. Assigning such an interpretation now would
+  introduce a physical assumption not mandated by PA-01, which leaves
+  the field's precise mathematical representation deferred.
+- The dimension or value of C is NOT fixed here.
+- Any relationship between C, κ, LΣ, and β is NOT established here.
+
+**Outstanding Questions:**
+- Physical interpretation of G(r): determine whether G(r) represents
+  an effective acceleration field, the gradient of a scalar potential,
+  a geometric spacetime-gradient quantity, or another mathematically
+  equivalent object. The dimensional specification of G(r) and C shall
+  be derived from this interpretation, not assumed beforehand.
+- Required regularity of Σ(r) and G(r) (e.g., continuity, C¹, or
+  higher) shall be determined from the mathematical operations
+  introduced in subsequent derivation steps rather than assumed a
+  priori.
+- What boundary or limiting behavior (r → 0, r → ∞) must G(r) satisfy,
+  and does this depend on the physical interpretation above?
+- How does C relate to κ — is C itself κ, a function of κ, or an
+  independent coefficient?
+
+**Next Objective:**
+Proceed to Step 1B: determine the physical interpretation of G(r) from
+among the candidates listed above, using an assumption-driven
+methodology consistent with DEC-002/DEC-003 (i.e., grounding the
+choice in PA-01 through PA-06 rather than in a desired observational
+outcome). Only after Step 1B may the dimension of C and G(r) be fixed.
+
 <!-- Additional entries appended in sequence -->
 
 ## Resolution Summary
