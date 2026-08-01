@@ -42,23 +42,51 @@ Assessments shall therefore use only the following provisional categories:
 
 Each assessment must include a brief structural justification.
 
+## Methodology Note: "Observational Testability" Criterion
+
+This criterion evaluates whether a representation can, in principle, yield
+falsifiable and quantitatively testable predictions against galactic-scale
+observations, consistent with PA-03 and PA-04. This is a structural
+assessment of testability potential, not an actual observational test —
+no data comparison has been performed at this stage.
+
+The same three provisional categories apply:
+- Potentially Compatible
+- Potentially Incompatible
+- Undetermined
+
 ---
 
 ## Table
 
 | Candidate | Supports Directionality | Justification | Supports Non-local Formulation | Can Admit GR as a Limiting Case? | Observational Testability | Status |
 |---|---|---|---|---|---|---|
-| Scalar field | Limited | Directionality is not intrinsic to a scalar field but may arise through its spatial derivative. | Moderate | Undetermined | Pending | Under Review |
-| Vector field | Strong | Directionality is intrinsic to a vector field. | Strong | Undetermined | Pending | Under Review |
-| Tensor field | Strong (General) | Supports anisotropic and direction-dependent behavior beyond vectors. | Strong (Added Complexity) | Potentially Compatible | Pending | Under Review |
-| Potential gradient | Strong (Constrained) | Directionality is present through the gradient, but restricted to conservative (curl-free) fields. | Strong (Constrained) | Undetermined | Pending | Under Review |
+| Scalar field | Limited | Directionality is not intrinsic to a scalar field but may arise through its spatial derivative. | Moderate | Undetermined | Potentially Compatible | Under Review |
+| Vector field | Strong | Directionality is intrinsic to a vector field. | Strong | Undetermined | Potentially Compatible | Under Review |
+| Tensor field | Strong (General) | Supports anisotropic and direction-dependent behavior beyond vectors. | Strong (Added Complexity) | Potentially Compatible | Undetermined | Under Review |
+| Potential gradient | Strong (Constrained) | Directionality is present through the gradient, but restricted to conservative (curl-free) fields. | Strong (Constrained) | Undetermined | Potentially Compatible | Under Review |
+
+## Column Justifications: Observational Testability
+
+- **Scalar field:** Testable against scalar-like observables (e.g., rotation
+  curve magnitude), but may be insufficient if directional/anisotropic
+  effects prove significant.
+- **Vector field:** Directional predictions (e.g., in-plane vs out-of-plane
+  behavior) offer richer, more specific, and thus more falsifiable
+  predictions per PA-04.
+- **Tensor field:** Formally testable, but the additional degrees of freedom
+  may be difficult to independently constrain with currently available
+  galactic-scale data.
+- **Potential gradient:** Shares vector-field testability; the curl-free
+  constraint adds an independently falsifiable structural prediction.
 
 ---
 
 ## Next Objective
-Evaluate the final criterion — "Observational Testability" — across all
-four candidates. Once populated, review the completed table as a whole
-before proceeding to DECISIONS.md.
+All four evaluation criteria (Directionality, Non-local Formulation, GR
+Limiting Case, Observational Testability) are now populated for all four
+candidates. Conduct a full review of the completed table, then proceed to
+DECISIONS.md to record the outcome of Step 1.
 
 ## Revision History
 - 2026-07-31: Initial evaluation table created; first column
@@ -73,3 +101,6 @@ before proceeding to DECISIONS.md.
 - 2026-08-01: Corrected document structure — restored Methodology Note
   (with canonical categories) to appear before the Table; removed a
   duplicated stray line; updated Next Objective to reflect current progress.
+- 2026-08-01: Fourth and final column ("Observational Testability")
+  populated for all four candidates using canonical categories, per PA-03
+  and PA-04. All Step 1 evaluation criteria are now complete.
