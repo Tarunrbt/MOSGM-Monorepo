@@ -33,6 +33,20 @@ Assessments shall therefore use only the following provisional categories:
 
 Each assessment must include a brief structural justification.
 
+## Methodology Note: "Can Admit GR as a Limiting Case?" Criterion
+
+Per PA-06, the relationship between MOSGM and General Relativity is intentionally unresolved during this audit. This criterion therefore does NOT ask whether MOSGM reduces to GR.
+
+Instead, it asks only whether a mathematical representation structurally excludes or remains open to admitting a GR-like limiting case.
+
+This is an exclusionary/permissive test, not a confirmatory one.
+
+Sub-questions considered:
+
+- Does the representation structurally exclude a GR-like limiting case?
+- Does it remain structurally open to admitting one?
+- Does its mathematical structure permit such a possibility without resolving PA-06?
+
 ---
 
 ## Table
