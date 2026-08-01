@@ -14,9 +14,14 @@
 - `CHECKLIST.md` — verification checklist
 - `REFERENCES.md` — canonical / historical / external references
 
-## 4. Workflow (pointer only)
-<!-- One-line summary; detailed methodology now lives implicitly across the files above -->
-<!-- e.g. "See DERIVATION_LOG.md for step sequence; see DECISIONS.md for resolution reasoning" -->
+## 4. Workflow
+
+1. Define canonical assumptions (ASSUMPTIONS.md)
+2. Record derivation steps (DERIVATION_LOG.md)
+3. Evaluate candidate mathematical representations (REPRESENTATION_EVALUATION.md)
+4. Record accepted decisions (DECISIONS.md)
+5. Verify completion criteria (CHECKLIST.md)
+6. Maintain supporting references (REFERENCES.md)
 
 ## 5. Deliverables
 At the conclusion of this audit:
