@@ -156,3 +156,57 @@ to Step 1 of the derivation: formally defining κ in terms of G(r), LΣ,
 and β.
 
 <!-- Additional decisions appended in sequence -->
+
+---
+
+## Decision 004
+
+- **Decision ID:** DEC-004
+- **Status:** Proposed
+- **Reason:** Following the Local vs. Non-local Formulation comparison
+  recorded in DERIVATION_LOG.md (Entry 002), consistency with PA-01
+  through PA-06 and with MA-01/MA-02 did not distinguish between the
+  two candidate structural classes (both rated Undetermined). The
+  Local form received more favorable provisional assessments on three
+  of the five evaluation criteria: Mathematical Tractability,
+  Observational Implications, and Additional Assumptions Introduced.
+
+  The Additional Assumptions Introduced criterion is given particular
+  weight here, consistent with the tie-break principle already
+  established in DEC-003: candidates that avoid introducing
+  structural commitments not yet derived or justified are preferred,
+  per the Excluded Assumptions section of ASSUMPTIONS.md. The
+  Non-local form's requirement for a new, unjustified kernel function
+  K(r,r′) (including its form, normalization, and decay behavior)
+  weighed against it under this principle.
+
+- **Impact:** If accepted, G(r) will be formalized as a local function
+  of Σ(r) and its derivatives evaluated at r alone for continuation of
+  the κ derivation. Final acceptance of this formulation is contingent
+  upon successful completion of Step 1A (explicit mathematical
+  definition, dimensional consistency, and boundary behavior). Should
+  Step 1A reveal internal mathematical inconsistency, dimensional
+  incompatibility (per MA-01/MA-02), or conflict with any canonical
+  assumption, this decision shall be revisited rather than accepted.
+
+- **Alternatives Considered:**
+  - Non-local form — set aside due to lower mathematical tractability,
+    less immediate observational testability (pending kernel
+    constraint), and the introduction of an unjustified kernel
+    structure, per the comparison table in DERIVATION_LOG.md. Not
+    ruled out permanently; may be reconsidered if the local form
+    proves insufficient during or after Step 1A.
+  - Hybrid form — not evaluated at this stage; may be reconsidered
+    later if the pure local form proves insufficient.
+
+- **Date:** 2026-08-01
+
+### Next Objective
+
+Proceed to Step 1A: the explicit mathematical definition of G(r) as a
+local function of Σ(r), including its specific functional form,
+dimensional specification, and boundary/limiting behavior, consistent
+with MA-01 and MA-02. Upon successful completion, update DEC-004 status
+from "Proposed" to "Accepted."
+
+<!-- Additional decisions appended in sequence -->
