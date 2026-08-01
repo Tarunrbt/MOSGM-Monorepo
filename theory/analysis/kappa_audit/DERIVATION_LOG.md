@@ -138,9 +138,71 @@ Assessments shall use the canonical provisional categories:
 No candidate form is selected at this stage. Selection, if warranted,
 will be recorded separately as DEC-004.
 
+## Local vs. Non-local Comparison Table
+
+**Candidate A — Local form:** G(r) defined as a function of Σ(r) and its
+derivatives evaluated at r alone (e.g., G(r) ∝ ∇Σ(r)).
+
+**Candidate B — Non-local form:** G(r) defined via integration over a
+source region, e.g., G(r) = ∫ K(r, r′) ∇Σ(r′) d³r′, with LΣ potentially
+entering as a kernel scale.
+
+| Criterion | Local Form | Non-local Form |
+|---|---|---|
+| Consistency with PA-01–PA-06 | Undetermined | Undetermined |
+| Consistency with MA-01/MA-02 | Potentially Compatible | Potentially Compatible |
+| Mathematical Tractability | Potentially Compatible | Potentially Incompatible |
+| Observational Implications | Potentially Compatible | Undetermined |
+| Additional Assumptions Introduced | Potentially Compatible | Potentially Incompatible |
+
+### Justifications
+
+- **Consistency with PA-01–PA-06 (both Undetermined):** PA-01 introduces LΣ
+  as a characteristic smoothing/interaction length scale. At the current
+  stage of the audit, this wording alone does not uniquely determine
+  whether G(r) must be formulated locally or non-locally — a characteristic
+  length scale can appear within a local formulation (e.g., gradient
+  theories, diffusion-type equations) as well as a non-local one. Both
+  structural classes remain compatible pending formal derivation.
+- **Consistency with MA-01/MA-02:** Local form has straightforward
+  dimensional analysis, matching the dimensions of ∇Σ directly. Non-local
+  form is also dimensionally specifiable, but requires the kernel K(r,r′)
+  to carry its own dimension so the integral is dimensionally consistent —
+  achievable, but with more definitional overhead.
+- **Mathematical Tractability:** Local form yields differential relations,
+  generally more tractable for subsequent derivation steps. Non-local form
+  yields integral equations, which are typically more complex to solve and
+  analyze, particularly with an unspecified kernel.
+- **Observational Implications:** Local form ties predictions directly to
+  local matter density, which is straightforward to test but may not
+  capture environmental (large-scale) effects. Non-local form could
+  capture such effects, but testability requires independently
+  constraining the kernel's functional form, adding complexity to
+  falsification.
+- **Additional Assumptions Introduced:** Local form requires no new free
+  parameters or functions beyond Σ(r) itself. Non-local form requires a
+  new kernel function K(r,r′), including its functional form,
+  normalization, and decay behavior — structural commitments not yet
+  derived or justified, consistent with the Excluded Assumptions
+  principle against unjustified structures.
+
+## Conclusion (Preliminary)
+
+The comparison does not identify a unique outcome based solely on
+consistency with PA-01–PA-06 or MA-01/MA-02, where both candidate
+classes remain Undetermined.
+
+The Local form receives more favorable provisional assessments on
+Mathematical Tractability, Observational Implications, and Additional
+Assumptions Introduced. These observations will be considered during
+DEC-004, but they do not constitute a selection by themselves.
+
+No local or non-local formulation is adopted at this stage.
+
 **Next Objective:**
-Populate the Local vs. Non-local comparison table using the criteria above,
-then proceed to DEC-004 only if the comparison justifies a selection.
+Record a decision (DEC-004) on the local vs. non-local question based on
+this comparison, then proceed to the explicit mathematical definition of
+G(r) consistent with that decision.
 
 <!-- Additional entries appended in sequence -->
 
