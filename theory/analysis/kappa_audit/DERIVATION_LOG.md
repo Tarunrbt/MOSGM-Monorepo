@@ -414,3 +414,12 @@ addressed in Entry 005.
 
 **Audit Policy:**
 Only verified mathematical conclusions from the discussion will be recorded in this derivation log. Discussion comments themselves do not constitute accepted results.
+
+
+## Entry 005
+
+**Current Status:**
+No dimensional relationship between C and κ has yet been derived.
+Whether such a relationship can be obtained without first selecting a
+physical interpretation of G(r) remains an open question and will be
+investigated in the following sub-steps.
